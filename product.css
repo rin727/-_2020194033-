@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/* 헤더 */
+header{
+    height: 60px;
+    width: 1140px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    transition: all 0.3s;
+}
+
+header a img{
+    height: 60px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #212121;
+    line-height: 58px;
+}
+nav a:hover{
+    border-bottom: 1px solid #DCFD00;
+    color: #DCFD00;
+}
+.sidenav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidenav a{
+    height: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sidenav a img{
+    height: 24px;
+}
+
+/* 배너 */
+.banner{
+    background-color: #FAFAFA;
+    padding: 150px 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mainimg{
+    padding: 0 15% ;
+}
+.card{
+    width: 100%;
+    height: 600px;
+    box-shadow: 0px 3px 10px 5px #d4d4d4;
+    background-color: #fff;
+    border-radius: 30px;
+    color: #212121;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+h2{
+    font-size:24px;
+}
+h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+.introduce{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.section{
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    height:140px;
+    color: #212121;
+    padding: 16px 24px;
+}
+.part{
+    color: #212121;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.colors button{
+    height: 20px;
+    width: 20px;
+}
+.colors{
+    margin-top: 20px;
+}
+.black{
+    border-radius: 50px;
+    border: 1px solid #d4d4d4;
+    background-color: #212121;
+}
+.white{
+    background-color: #fff;
+    border-radius: 50px;
+    border: 1px solid #d4d4d4;
+}
+.close{
+    border: 0px;
+    outline: none;
+    background-color: #FAFAFA;
+    height: 24px;
+}
+.line{
+    height: 2px;
+    border-bottom: 1px solid #d4d4d4;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
